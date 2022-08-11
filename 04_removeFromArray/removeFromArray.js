@@ -1,6 +1,6 @@
 const removeFromArray = function(keep, ...remove) {
 
-  return keep.filter(x => !remove.includes(x))
+  return keep.filter(x => !remove.includes(x));
 
 };
 
