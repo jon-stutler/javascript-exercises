@@ -6,7 +6,7 @@ const subtract = function(a, b) {
 	return a - b;
 };
 
-const sum = function(a) { // This one works!
+const sum = function(a) {
   let total = 0;
   for(let i in a) {
     total += a[i];
@@ -14,7 +14,7 @@ const sum = function(a) { // This one works!
 	return total;
 };
 
-const multiply = function(a) { // This one works now :)
+const multiply = function(a) {
   let total = 1;
   for(let i in a) {
     total *= a[i];
